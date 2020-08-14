@@ -1,0 +1,23 @@
+<?php
+
+{
+	float n1, n2, n3, n4, media;
+	
+	echo “Digite a nota 1: ”;
+	$var (“%f”, &n1);
+	
+	echo “Digite a nota 2: ”);
+	readline (“%f”, &n2);
+	
+	echo “Digite a nota 3: ”;
+	readline (“%f”, &n3);
+	
+	echo “Digite a nota 4: ”;
+	realine (“%f”, &n4);
+	
+	media = (n1 + n2 + n3 + n4)/4;
+	
+	echo “A media e: %.2f”, media;
+	
+}
+?>
