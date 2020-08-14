@@ -1,0 +1,16 @@
+<?php
+{
+	int num, ant, suc;
+	
+	echo “ Digite o numero:”;
+	readline (“%d”, &num);
+
+	ant = num - 1;
+	suc = num +1;
+
+	echo “\n O antecessor e: %d”, ant;
+
+	echo “\n O sucessor e: %d”, suc;	
+
+}
+?>
